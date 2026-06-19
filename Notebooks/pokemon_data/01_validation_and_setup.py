@@ -14,10 +14,10 @@
 
 # MAGIC %sql
 # MAGIC USE CATALOG pokemon_catalog;
-# MAGIC CREATE VOLUME IF NOT EXISTS bronze.exports;
-# MAGIC CREATE VOLUME IF NOT EXISTS bronze.raw_data;
-# MAGIC CREATE VOLUME IF NOT EXISTS silver.exports;
-# MAGIC CREATE VOLUME IF NOT EXISTS gold.exports;
+# MAGIC CREATE VOLUME IF NOT EXISTS 01_bronze.exports;
+# MAGIC CREATE VOLUME IF NOT EXISTS 01_bronze.raw_data;
+# MAGIC CREATE VOLUME IF NOT EXISTS 02_silver.exports;
+# MAGIC CREATE VOLUME IF NOT EXISTS 03_gold.exports;
 
 # COMMAND ----------
 
